@@ -9,9 +9,9 @@ body {
 }
 
 .main {
-  height: 100vh;
-  margin-bottom: 15px;
-  margin-top: 15px;
+  height: 95vh;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .col {
@@ -19,15 +19,25 @@ body {
 }
 
 .col1 {
-
+  align-content: center;
+  background: url('./public/vector.png');
+  background-size: 100% 100%;
+  margin-left: 20px;
 }
 
 .col2 {
   background-color: $column-2-background;
+  margin-right: 20px;
+}
+
+.col1text {
+  // display: flex;
+  // text-align: left;
+  margin: 300px;
 }
 
 .col2text {
   display: flex;
   text-align: left;
-  vertical-align: middle;
+  margin: 200px;
 }
