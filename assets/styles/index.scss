@@ -25,3 +25,9 @@ body {
 .col2 {
   background-color: $column-2-background;
 }
+
+.col2text {
+  display: flex;
+  text-align: left;
+  vertical-align: middle;
+}
