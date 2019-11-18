@@ -11,7 +11,33 @@
       <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
       <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
-    <body>
-      <h1>Browser Template</h1>
-    </body>
+
+<!-- 2 column layout -->
+  <body>
+    <div class="container">
+
+      <div class="row">
+        <div class="main col col1">
+          <img class="img-fluid" src="public/vector.png" alt="">
+          <h2>Weather Finder</h2>
+          <p>Find out the temperature, weather conditions and more...</p>
+      </div>
+
+      <div class="main col col2">
+        <h2></h2>
+        <form>
+          <input required type="text" placeholder="City...">
+          <input required type="text" placeholder="Country...">
+          <button class="button">Get Weather</button>
+
+          <p>Location: Manchester GB</p>
+          <p>Temperature: 0.27</p>
+          <p>Humidity: 93%</p>
+          <p>Condition: mist</p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+  </body>
 </html>

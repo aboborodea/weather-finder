@@ -1,1 +1,27 @@
 @import '~bootstrap/scss/bootstrap';
+
+$border-color-left: #c57136;
+$border-color-right: #9b322a;
+$column-2-background: #2B3747;
+
+body {
+  background-image: linear-gradient(to right, $border-color-left, $border-color-right);
+}
+
+.main {
+  height: 100vh;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.col {
+  display: inline;
+}
+
+.col1 {
+
+}
+
+.col2 {
+  background-color: $column-2-background;
+}
